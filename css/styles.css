@@ -80,7 +80,7 @@ section article {
 section .guide,
 section .flies {
     width: 40%;
-    margin-top:10%;
+    margin-top:30%;
 }
 
 section .flies {
@@ -103,12 +103,12 @@ section .contact {
     color:#999;
 }
 
+/*
 section .contact form,
 section .contact p {
     float:left;
     width:40%;
-
-}
+}*/
 
 section .contact .lead {
     font-size:22px;
@@ -207,7 +207,7 @@ form label {
 @media (max-width: 700px) {
     body {
         background-size: inherit;
-        background-position: 0 -540px;
+        background-position: 50% -540px;
     }
     header {
         position:static;
@@ -219,7 +219,6 @@ form label {
     header h1 {
         margin-top:20px;
     }
-
 
     section {
         position:static;
